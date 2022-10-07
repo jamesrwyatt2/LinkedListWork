@@ -12,5 +12,15 @@ public class Main {
 
         System.out.println(shoppingList);
 
+        shoppingList.add(1,"pizza");
+
+        System.out.println(shoppingList);
+
+        shoppingList.removeFirst();
+
+        System.out.println(shoppingList);
+
+
+
     }
 }
